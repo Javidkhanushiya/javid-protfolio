@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Interno project",
+    "desc": "The first project I made in my web design carrier was converting fighma to code....",
+    "image": "Interno",
+    "category": "Interno",
+    "links": {
+      "view": "https://www.figma.com/proto/VgJw7EYO31g0PSyNEGuj8b/Interior-Design-Website-Template-(Community)?node-id=1-2860&scaling=scale-down-width",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Pneutork project",
+    "desc": "The second project I made in my web design carrier was converting fighma to code....",
+    "image": "Pneutork",
+    "category": "pneutork",
+    "links": {
+      "view": "https://www.figma.com/file/w32BtWY6BLZlFEH69nH2Pj/Diagram---Pneutork-(Copy)?type=whiteboard&node-id=0-1&t=st7Thz5DdDDurJpN-0",
+      "code": "https://www.figma.com/file/w32BtWY6BLZlFEH69nH2Pj/Diagram---Pneutork-(Copy)?type=whiteboard&node-id=0-1&t=st7Thz5DdDDurJpN-0"
+    }
+  },
+  {
+    "name": "Bootstrap project",
+    "desc": "Projects created during my learning bootstrap period.....",
+    "image": "Bootstrap",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.figma.com/proto/VgJw7EYO31g0PSyNEGuj8b/Interior-Design-Website-Template-(Community)?node-id=1-2860&scaling=scale-down-width",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Protfolio project",
+    "desc": "Projects created during my learning period....",
+    "image": "Javid_Khanushiya",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.figma.com/proto/VgJw7EYO31g0PSyNEGuj8b/Interior-Design-Website-Template-(Community)?node-id=1-2860&scaling=scale-down-width",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Reactjs project",
+    "desc": "Projects created during my learning period....",
+    "image": "React_project",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.figma.com/proto/VgJw7EYO31g0PSyNEGuj8b/Interior-Design-Website-Template-(Community)?node-id=1-2860&scaling=scale-down-width",
+      "code": "#"
+    }
+  }
+]
