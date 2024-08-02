@@ -229,3 +229,25 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+
+
+
+
+let moodbtn = document.querySelector("#mood")
+let body = document.querySelector("body")
+let mood = "dark";
+
+moodbtn.addEventListener("click",() => {
+ if (mood === "dark"){
+    mood = "light";
+    body.classList.add("dark")
+    body.classList.remove("light")
+
+ } else {
+    mood = "dark"
+    body.classList.add("ligth")
+    body.classList.remove("dark")
+ }
+
+})
