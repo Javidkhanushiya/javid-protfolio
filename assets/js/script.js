@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "web designer","react development", "web designer"],
+    strings: ["frontend development", "web designer", "react development", "web designer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -234,20 +234,33 @@ srtop.reveal('.contact .container .form-group', { delay: 400 });
 
 
 
+// dark mood body
 let moodbtn = document.querySelector("#mood")
 let body = document.querySelector("body")
 let mood = "dark";
 
-moodbtn.addEventListener("click",() => {
- if (mood === "dark"){
-    mood = "light";
-    body.classList.add("dark")
-    body.classList.remove("light")
+moodbtn.addEventListener("click", () => {
+    if (mood === "dark") {
+        mood = "light";
+        body.classList.add("dark")
+        body.classList.remove("light")
 
- } else {
-    mood = "dark"
-    body.classList.add("ligth")
-    body.classList.remove("dark")
- }
+    } else {
+        mood = "dark"
+        body.classList.add("ligth")
+        body.classList.remove("dark")
+    }
 
+})
+
+
+// courser ifect 
+
+let html = document.querySelector("html")
+let curcer = document.querySelector(".courcer")
+console.log(curcer)
+
+html.addEventListener("mouseover", (mifect) => {
+    curcer.style.left = mifect.x + "px";
+    curcer.style.top = mifect.y + "px";
 })

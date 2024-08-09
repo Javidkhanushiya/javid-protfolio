@@ -4,6 +4,17 @@
 
 /* moode change color  */
 
+.courcer{
+  width: 30px ;
+  height: 30px ;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0 ;
+  right: 0;
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
 .dark {
   background-color: black !important;
   color: white !important;
